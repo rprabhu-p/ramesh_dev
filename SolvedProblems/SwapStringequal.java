@@ -13,6 +13,21 @@ public class SwapStringequal {
 
         inp.close();
 
+        int count = 0;
+
+        for(int i = 0; i < str1.length(); i++) {
+            if(str1.charAt(i) != str2.charAt(i)) {
+                count++;
+            }
+        }
+        
+        if(count == 2) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+
+        //another approachs
         if(!swapStringCheck(str1, str2)) {
             System.out.println("False");
         } else {

@@ -8,6 +8,20 @@ public class StringTransform {
         String data = input.nextLine();
         input.close();
 
+        String newWord = "";
+
+        for(int i = 0; i < data.length(); i++) {
+            char ch = data.charAt(i);
+            if(ch >= 'A' && ch <= 'Z') {
+                char mappedChar = (char)('Z' - (ch - 'A'));
+                newWord += mappedChar;
+            } else {
+                newWord += ch;
+            }
+        }     
+        System.out.println("Modified String: " + newWord);
+
+        //Another approach
         try {
             String transformed = stringTransform(data);
             System.out.println(transformed);
