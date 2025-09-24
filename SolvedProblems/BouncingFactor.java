@@ -30,7 +30,7 @@ class BouncingFactor {
                 } else {
                     temp = height + bounced;
                 }
-                travelled = travelled + temp;
+                travelled += temp;
                 height = bounced;
                 
             }
@@ -39,5 +39,21 @@ class BouncingFactor {
         }
 
         System.out.println(travelled);
+
+        //another approach
+        double total_dist = bounce_dist(height, bounce);
+        System.out.println("Total distance is:" + total_dist);
+    }
+
+    //Another approach
+    public static double bounce_dist(double h, double b) {
+        double dist = 0;
+        while(h > 1) {
+            dist += h;
+            h = h * b;
+            if(h < 1) break;
+            dist += h;
+        }
+        return dist;
     }
 }
