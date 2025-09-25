@@ -72,10 +72,12 @@ class Gameplay {
 
         do {
             System.out.println(currPlayer == -1 ? "\n\nPlayer1's turn:" : "\n\nPlayer2's turn:");
-            System.out.println("press \"r\" to rollm the dice");
+            System.out.println("press \"r\" to roll the dice");
             
             rpressed = input.next();
             diceRoll = rollDice();
+
+            System.out.println("Rolled number : "+ diceRoll);
 
             if(currPlayer == -1) {
                 player1 = calculatePlayerValue(player1, diceRoll);
