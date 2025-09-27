@@ -80,7 +80,7 @@ class RailwayReservation {
     }
 }
 
-public class Railway {
+public class RailwaySingle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter total number of seats: ");
