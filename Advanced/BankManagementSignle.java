@@ -101,7 +101,7 @@ class GiftCard {
 }
 
 // ===== Bank Management System =====
-public class BankManagement {
+public class BankManagementSignle {
     private static List<Customer> customers = new ArrayList<>();
     private static Scanner sc = new Scanner(System.in);
 
