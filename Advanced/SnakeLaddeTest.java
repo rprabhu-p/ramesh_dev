@@ -1,3 +1,4 @@
+package Advanced;
 import java.util.*;
 
 class SnakeLadderTest {
