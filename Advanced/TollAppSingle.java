@@ -117,7 +117,7 @@ class Highway {
 
 // -------------------- Main Application --------------------
 
-public class TollApp {
+public class TollAppSingle {
     static Scanner sc = new Scanner(System.in);
     static Highway highway = new Highway();
     static Map<String, Vehicle> vehicles = new HashMap<>();
