@@ -75,7 +75,11 @@ public class LibraryService {
     }
 
     private User findUser(String id) {
-        for (User u : users) if (u.getUserId().equalsIgnoreCase(id)) return u;
+        for (User u : users) {
+            if (u.getUserId().equalsIgnoreCase(id)) {
+                return u;
+            }
+        }
         return null;
     }
 }
