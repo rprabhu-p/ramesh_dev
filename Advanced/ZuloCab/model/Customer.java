@@ -18,6 +18,7 @@ public class Customer {
     }
 
     public int getId() { return id; }
+    public int getAge() {return age; }
     public String getName() { return name; }
     public String getPassword() { return password; }
     public void addRide(Ride ride) { rideHistory.add(ride); }

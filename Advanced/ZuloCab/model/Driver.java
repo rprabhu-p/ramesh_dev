@@ -20,6 +20,7 @@ public class Driver {
     }
 
     public int getId() { return id; }
+    public int getAge() { return age; }
     public String getName() { return name; }
     public String getPassword() { return password; }
     public boolean isOnRest() { return onRest; }
