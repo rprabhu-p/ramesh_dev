@@ -1,8 +1,9 @@
-package Advanced.BankManagement;
+package BankManagement;
 
-import Advanced.BankManagement.model.*;
-import Advanced.BankManagement.service.BankService;
 import java.util.*;
+
+import BankManagement.model.*;
+import BankManagement.service.BankService;
 
 public class BankManagement {
     private static Scanner sc = new Scanner(System.in);
