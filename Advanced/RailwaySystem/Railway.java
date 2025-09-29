@@ -18,9 +18,10 @@ public class Railway {
             System.out.println("\n=== Railway Reservation Menu ===");
             System.out.println("1. Book a Seat");
             System.out.println("2. Cancel a Booking");
-            System.out.println("3. View Bookings & Waiting List");
-            System.out.println("4. Seats Left");
-            System.out.println("5. Exit");
+            System.out.println("3. View Bookings List");
+            System.out.println("4. View Waiting List");
+            System.out.println("5. Seats Left");
+            System.out.println("6. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
             sc.nextLine();
@@ -46,10 +47,14 @@ public class Railway {
                     break;
 
                 case 4:
-                    System.out.println("Seats left: " + reservation.seatsLeft());
+                    reservation.showWaitingList();
                     break;
 
                 case 5:
+                    System.out.println("Seats left: " + reservation.seatsLeft());
+                    break;
+
+                case 6:
                     System.out.println("Exiting... Thank you!");
                     sc.close();
                     System.exit(0);
