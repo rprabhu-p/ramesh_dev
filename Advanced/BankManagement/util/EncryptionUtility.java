@@ -1,4 +1,4 @@
-package Advanced.BankManagement.util;
+package BankManagement.util;
 
 public class EncryptionUtility {
     public static String encrypt(String input) {

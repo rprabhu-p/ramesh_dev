@@ -1,4 +1,4 @@
-package Advanced.ZuloCab.model;
+package ZuloCab.model;
 
 public class Cab {
     private int id;

@@ -1,9 +1,10 @@
-package Advanced.EmployeeQueryEngine.service;
+package EmployeeQueryEngine.service;
 
-import Advanced.EmployeeQueryEngine.model.Employee;
-import Advanced.EmployeeQueryEngine.repository.EmployeeRepository;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import EmployeeQueryEngine.model.Employee;
+import EmployeeQueryEngine.repository.EmployeeRepository;
 
 public class EmployeeService {
     private final EmployeeRepository repo;

@@ -1,4 +1,4 @@
-package Advanced.TollApplication;
+package TollApplication;
 
 import java.util.*;
 

@@ -1,9 +1,9 @@
-package Advanced.ZuloCab.utils;
-
-import Advanced.ZuloCab.model.*;
+package ZuloCab.utils;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ZuloCab.model.*;
 
 public class DataInitializer {
     private static final List<Driver> drivers = new ArrayList<>();

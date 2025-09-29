@@ -1,4 +1,4 @@
-package Advanced;
+package Advanced_SignleClass;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;

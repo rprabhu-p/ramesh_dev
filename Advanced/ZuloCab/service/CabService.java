@@ -1,10 +1,10 @@
-package Advanced.ZuloCab.service;
-
-import Advanced.ZuloCab.model.Cab;
-import Advanced.ZuloCab.model.Location;
-import Advanced.ZuloCab.utils.DataInitializer;
+package ZuloCab.service;
 
 import java.util.List;
+
+import ZuloCab.model.Cab;
+import ZuloCab.model.Location;
+import ZuloCab.utils.DataInitializer;
 
 public class CabService {
 

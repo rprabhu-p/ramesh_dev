@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 public class module2_Assign {
     public static void assign(Lift lift, int to) {

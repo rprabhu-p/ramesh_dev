@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 public class module8_Maintenance {
     public static void set(Lift lift, boolean status) {

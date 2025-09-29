@@ -1,6 +1,6 @@
-package Advanced.EmployeeQueryEngine.query;
+package EmployeeQueryEngine.query;
 
-import Advanced.EmployeeQueryEngine.model.Employee;
+import EmployeeQueryEngine.model.Employee;
 
 public class AgeCondition implements Condition {
     public enum Option {GT, LT, EQ, NEQ}

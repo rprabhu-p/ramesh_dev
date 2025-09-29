@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 public class module7_Capacity {
     public static boolean hasCapacity(Lift lift) {

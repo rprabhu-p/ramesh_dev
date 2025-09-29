@@ -1,4 +1,4 @@
-package Advanced.ZuloCab.model;
+package ZuloCab.model;
 
 import java.util.ArrayList;
 import java.util.List;

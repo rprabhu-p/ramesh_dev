@@ -1,4 +1,4 @@
-package Advanced.ZuloCab.model;
+package ZuloCab.model;
 
 public class Ride {
     private Customer customer;

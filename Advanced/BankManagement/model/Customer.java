@@ -1,7 +1,8 @@
-package Advanced.BankManagement.model;
+package BankManagement.model;
 
-import Advanced.BankManagement.util.EncryptionUtility;
 import java.util.*;
+
+import BankManagement.util.EncryptionUtility;
 
 public class Customer {
     private String customerId;

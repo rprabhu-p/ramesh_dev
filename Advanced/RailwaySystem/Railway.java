@@ -1,8 +1,9 @@
-package Advanced.RailwaySystem;
+package RailwaySystem;
 
-import Advanced.RailwaySystem.model.*;
-import Advanced.RailwaySystem.service.*;
 import java.util.*;
+
+import RailwaySystem.model.*;
+import RailwaySystem.service.*;
 
 public class Railway {
     public static void main(String[] args) {

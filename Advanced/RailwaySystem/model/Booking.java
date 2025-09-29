@@ -1,4 +1,4 @@
-package Advanced.RailwaySystem.model;
+package RailwaySystem.model;
 
 public class Booking implements Comparable<Booking> {
     private User user;
