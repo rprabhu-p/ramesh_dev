@@ -5,7 +5,7 @@ public class ATMSystem {
     private Map<Integer, Integer> inventory;
 
     public ATMSystem(Map<Integer, Integer> initialInventory) {
-        this.inventory = new HashMap(initialInventory);
+        this.inventory = new HashMap<>(initialInventory);
     }
 
     public Map<Integer, Integer> withdraw(int amount){
