@@ -69,5 +69,6 @@ public class MinimumSubstring {
 
         String result = minOrderedWindow(s, p);
         System.out.println("Output: " + (result.isEmpty() ? "(empty string)" : result));
+        scanner.close();
     }
 }
