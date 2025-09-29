@@ -7,11 +7,6 @@ import ZuloCab.model.Location;
 import ZuloCab.utils.DataInitializer;
 
 public class CabService {
-
-    public static List<Location> getLocations() {
-        return DataInitializer.getLocations();
-    }
-
     public static Cab findNearestCab(Location source) {
         List<Cab> cabs = DataInitializer.getCabs();
         return cabs.stream()

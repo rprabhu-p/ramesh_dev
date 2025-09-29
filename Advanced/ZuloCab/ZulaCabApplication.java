@@ -88,7 +88,7 @@ public class ZulaCabApplication {
     }
 
     static void bookRide(Customer customer) {
-        var locations = CabService.getLocations();
+        var locations = DataInitializer.getLocations();
         System.out.println("Available Locations:");
         for (Location loc : locations) {
             System.out.println(loc.getId() + ". " + loc.getName());
