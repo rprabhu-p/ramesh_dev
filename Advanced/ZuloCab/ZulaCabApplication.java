@@ -88,7 +88,7 @@ public class ZulaCabApplication {
     }
 
     static void bookRide(Customer customer) {
-        var locations = CabService.getLocations();
+        var locations = DataInitializer.getLocations();
         System.out.println("Available Locations:");
         for (Location loc : locations) {
             System.out.println(loc.getId() + ". " + loc.getName());
@@ -100,8 +100,14 @@ public class ZulaCabApplication {
         int destId = sc.nextInt();
         sc.nextLine();
 
-        Location source = locations.stream().filter(l -> l.getId() == srcId).findFirst().orElse(null);
-        Location destination = locations.stream().filter(l -> l.getId() == destId).findFirst().orElse(null);
+        Location source = locations.stream()
+                            .filter(l -> l.getId() == srcId)
+                            .findFirst()
+                            .orElse(null);
+        Location destination = locations.stream()
+                            .filter(l -> l.getId() == destId)
+                            .findFirst()
+                            .orElse(null);
 
         if (source == null || destination == null) {
             System.out.println("Invalid locations!");
