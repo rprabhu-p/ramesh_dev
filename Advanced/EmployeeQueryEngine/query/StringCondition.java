@@ -1,6 +1,6 @@
-package Advanced.EmployeeQueryEngine.query;
+package EmployeeQueryEngine.query;
 
-import Advanced.EmployeeQueryEngine.model.Employee;
+import EmployeeQueryEngine.model.Employee;
 
 public class StringCondition implements Condition {
     public enum Option {STARTS_WITH, CONTAINS, ENDS_WITH, NOT_CONTAINS, EQUALS, NOT_EQUALS}

@@ -1,16 +1,16 @@
-package Advanced.ZuloCab;
-
-import Advanced.ZuloCab.model.Cab;
-import Advanced.ZuloCab.model.Customer;
-import Advanced.ZuloCab.model.Driver;
-import Advanced.ZuloCab.model.Location;
-import Advanced.ZuloCab.model.Ride;
-import Advanced.ZuloCab.service.CabService;
-import Advanced.ZuloCab.service.CustomerService;
-import Advanced.ZuloCab.service.DriverService;
-import Advanced.ZuloCab.utils.DataInitializer;
+package ZuloCab;
 
 import java.util.Scanner;
+
+import ZuloCab.model.Cab;
+import ZuloCab.model.Customer;
+import ZuloCab.model.Driver;
+import ZuloCab.model.Location;
+import ZuloCab.model.Ride;
+import ZuloCab.service.CabService;
+import ZuloCab.service.CustomerService;
+import ZuloCab.service.DriverService;
+import ZuloCab.utils.DataInitializer;
 
 public class ZulaCabApplication {
     static Scanner sc = new Scanner(System.in);

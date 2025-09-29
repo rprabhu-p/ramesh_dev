@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 public class module6_Stops {
     public static int stops(int from, int to) {

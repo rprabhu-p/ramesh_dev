@@ -1,8 +1,9 @@
-package Advanced.BankManagement.service;
+package BankManagement.service;
 
-import Advanced.BankManagement.model.*;
-import Advanced.BankManagement.util.*;
 import java.util.*;
+
+import BankManagement.model.*;
+import BankManagement.util.*;
 
 public class BankService {
     private List<Customer> customers;

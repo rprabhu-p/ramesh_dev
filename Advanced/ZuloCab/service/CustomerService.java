@@ -1,9 +1,9 @@
-package Advanced.ZuloCab.service;
-
-import Advanced.ZuloCab.model.Customer;
-import Advanced.ZuloCab.utils.DataInitializer;
+package ZuloCab.service;
 
 import java.util.List;
+
+import ZuloCab.model.Customer;
+import ZuloCab.utils.DataInitializer;
 
 public class CustomerService {
     public static Customer login(String name, String password) {

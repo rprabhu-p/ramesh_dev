@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 import java.util.List;
 

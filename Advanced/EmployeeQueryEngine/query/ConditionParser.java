@@ -1,4 +1,4 @@
-package Advanced.EmployeeQueryEngine.query;
+package EmployeeQueryEngine.query;
 
 
 import java.util.*;

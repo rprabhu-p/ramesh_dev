@@ -1,4 +1,4 @@
-package Advanced.BankManagement.model;
+package BankManagement.model;
 
 import java.util.*;
 

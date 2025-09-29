@@ -1,4 +1,4 @@
-package Advanced.LiftApplication;
+package LiftApplication;
 
 
 public class Lift {

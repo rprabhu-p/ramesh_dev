@@ -1,4 +1,4 @@
-package Advanced.EmployeeQueryEngine.model;
+package EmployeeQueryEngine.model;
 
 public class Employee {
     public int id;

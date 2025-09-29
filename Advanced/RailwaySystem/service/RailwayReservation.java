@@ -1,7 +1,8 @@
-package Advanced.RailwaySystem.service;
+package RailwaySystem.service;
 
-import Advanced.RailwaySystem.model.*;
 import java.util.*;
+
+import RailwaySystem.model.*;
 
 public class RailwayReservation {
     private int totalSeats;

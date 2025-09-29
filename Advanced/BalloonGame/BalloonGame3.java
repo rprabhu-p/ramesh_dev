@@ -1,4 +1,4 @@
-package Advanced.BalloonGame;
+package BalloonGame;
 
 import java.util.*;
 

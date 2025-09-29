@@ -1,8 +1,9 @@
-package Advanced.EmployeeQueryEngine.repository;
+package EmployeeQueryEngine.repository;
 
-import Advanced.EmployeeQueryEngine.model.Employee;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import EmployeeQueryEngine.model.Employee;
 
 public class EmployeeRepository {
     private final List<Employee> employees;

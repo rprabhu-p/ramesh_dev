@@ -1,4 +1,4 @@
-package Advanced.TollApplication;
+package TollApplication;
 
 public class PaymentRecord {
     Vehicle vehicle;
