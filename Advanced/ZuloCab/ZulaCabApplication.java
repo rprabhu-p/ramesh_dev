@@ -100,8 +100,14 @@ public class ZulaCabApplication {
         int destId = sc.nextInt();
         sc.nextLine();
 
-        Location source = locations.stream().filter(l -> l.getId() == srcId).findFirst().orElse(null);
-        Location destination = locations.stream().filter(l -> l.getId() == destId).findFirst().orElse(null);
+        Location source = locations.stream()
+                            .filter(l -> l.getId() == srcId)
+                            .findFirst()
+                            .orElse(null);
+        Location destination = locations.stream()
+                            .filter(l -> l.getId() == destId)
+                            .findFirst()
+                            .orElse(null);
 
         if (source == null || destination == null) {
             System.out.println("Invalid locations!");
