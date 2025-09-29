@@ -24,11 +24,11 @@ public class RailwayReservation {
             Booking booking = new Booking(user, bookings.size() + 1);
             bookings.add(booking);
             Collections.sort(bookings);
-            System.out.println("✅ Seat booked for " + user.getName() + " | Seat Number: " + booking.getSeatNumber());
+            System.out.println("Seat booked for " + user.getName() + " | Seat Number: " + booking.getSeatNumber());
             return true;
         } else {
             waitingList.add(user);
-            System.out.println("⚠️ No seats available! " + user.getName() + " added to waiting list.");
+            System.out.println("No seats available! " + user.getName() + " added to waiting list.");
             return false;
         }
     }
@@ -38,7 +38,7 @@ public class RailwayReservation {
             Booking booking = it.next();
             if (booking.getUser().getName().equalsIgnoreCase(userName)) {
                 it.remove();
-                System.out.println("❌ Booking cancelled for " + userName);
+                System.out.println("Booking cancelled for " + userName);
 
                 // Allocate seat to next waiting user (if any)
                 if (!waitingList.isEmpty()) {
@@ -46,12 +46,12 @@ public class RailwayReservation {
                     Booking newBooking = new Booking(nextUser, bookings.size() + 1);
                     bookings.add(newBooking);
                     Collections.sort(bookings);
-                    System.out.println("✅ Seat reallocated to " + nextUser.getName() + " from waiting list.");
+                    System.out.println("Seat reallocated to " + nextUser.getName() + " from waiting list.");
                 }
                 return true;
             }
         }
-        System.out.println("⚠️ No booking found for " + userName);
+        System.out.println("No booking found for " + userName);
         return false;
     }
 
@@ -65,7 +65,7 @@ public class RailwayReservation {
             }
         }
         System.out.println("Seats left: " + seatsLeft());
-        showWaitingList();
+        //showWaitingList();
     }
 
     public void showWaitingList() {
